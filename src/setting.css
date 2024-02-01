@@ -1,0 +1,43 @@
+.top-section{
+  display: flex;
+  justify-content: center;
+}
+
+.notification{
+  display: flex;
+  align-items: center;
+  width: 250px;
+  justify-content: space-between;
+  
+}
+
+.notification div{
+  display: flex;
+}
+
+.notification p{
+  margin: 0;
+}
+
+
+.appearance{
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+
+.appearance .left{
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+.appearance .middle{
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+.appearance .right{
+  display: flex;
+  align-items: center;
+  width: 250px;
+}

@@ -1,0 +1,78 @@
+.blue {
+  background-color: rgb(1, 1, 27);
+  height: 25vh; /* 25% of the viewport height */
+}
+
+.lightblue {
+  background-color: rgb(255, 255, 255);
+  height: 70vh; /* 75% of the viewport height */
+}
+
+.formWrapper {
+  background-color: rgba(226, 223, 223, 0.4);
+  border-radius: 1em;
+  padding: 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 18vh;
+  left: 50%;
+  transform: translateX(-50%);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.footer{
+  height: 5vh;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.9);
+}
+
+
+.title{
+  color: aliceblue;
+  margin-bottom: 1em;
+}
+
+.button{
+  background-color: rgb(6, 6, 83);
+}
+
+.drawer{
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(1, 1, 27);
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  width: 20vw;
+  height: 100vh;
+  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.6);
+  overflow-y: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  z-index: 1000000;
+}
+.drawer::-webkit-scrollbar {
+  display: none;
+}
+.dbtn{
+  background-color: rgb(1, 1, 27);
+  border: 0px;
+  border-radius: 0px;
+}
+
+.profile{
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+
+@media (min-width: 769px) {
+  .formWrapper {
+    width: 500px; /* For larger screens, keep the .formWrapper narrower */
+  }
+}
+

@@ -1,0 +1,77 @@
+.blue {
+    background-color: rgb(1, 1, 27);
+    height: 15vh; /* 15% of the viewport height */
+  }
+
+  .footer{
+    background-color: rgb(1, 1, 27);
+    height: 10vh; /* 15% of the viewport height */
+  }
+  
+  .lightblue {
+    background-color: rgb(255, 255, 255);
+    height: 150vh; /* 75% of the viewport height */
+  }
+  .formWrapper {
+    background-color: rgba(226, 223, 223, 0.4);
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 18vh;
+    left: 50%;
+    transform: translateX(-50%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 450px;
+    overflow-y:auto;
+  }
+
+
+  #wrap{
+    border: 2px solid rgb(206, 194, 194);
+    border-radius: 1em;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 10px;
+
+  }
+
+
+  .slide{
+    position: absolute;
+    top: 95vh;
+    left: 7%;
+   
+  }
+
+  @media (min-width: 769px) {
+    .formWrapper {
+      width: 5000px; /* For larger screens, keep the .formWrapper narrower */
+    }
+  }
+
+  @media (min-width: 769px) {
+    .formWrapper2 {
+      width: 500px; /* For larger screens, keep the .formWrapper narrower */
+    }
+  }
+
+  .bdr{
+    border-left: 1px solid black;
+  }
+
+  .enrlbtn{
+    margin: 5px;
+  }
+
+  .mb-2 Button{
+    height: 100px;
+  }
+  .enrlamnt{
+    padding-left: 10px;
+    font-size: 13px;
+  }
+
+  .about{
+    top:20px;
+  }

@@ -1,0 +1,7 @@
+.container-fitScreen{
+    max-height: 100vh;
+    height: 100vh;
+    overflow-y: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
